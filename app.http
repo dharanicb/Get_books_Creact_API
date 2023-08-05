@@ -1,0 +1,28 @@
+GET http://localhost:3000/api/books
+
+###
+
+GET http://localhost:3000/api/books/1
+
+###
+POST http://localhost:3000/api/books
+Content-Type: application/json
+
+{
+  "title": "New Book",
+  "author": "New Author"
+}
+
+###
+PUT http://localhost:3000/api/books/1
+Content-Type: application/json
+
+{
+  "title": "Updated Book",
+  "author": "Updated Author"
+}
+
+
+###
+
+DELETE http://localhost:3000/api/books/1
